@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "nombre": "Collar de obsidiana",
+        "precio": 1000,
+        "img": "../img/collar 1.jpeg",
+        "cantidad": 1
+    },
+    {
+        "id": 2,
+        "nombre": "Collar de agata",
+        "precio": 1000,
+        "img": "../img/collar 2.jpeg",
+        "cantidad": 1
+    },
+    {
+        "id": 3,
+        "nombre": "Collar de turmalina",
+        "precio": 1000,
+        "img": "../img/collar 3.jpeg",
+        "cantidad": 1
+    },
+    {
+        "id": 4,
+       "nombre": "Collar de cuarzo verde",
+        "precio": 1000,
+        "img": "../img/collar 4.jpeg",
+        "cantidad": 1
+    },
+    {
+        "id": 5,
+        "nombre": "Collar de amatista",
+        "precio": 1000,
+        "img": "../img/collar 5.jpeg",
+        "cantidad": 1
+    },
+    {
+        "id": 6,
+        "nombre": "Collar de turmalina pequeña",
+        "precio": 1000,
+        "img": "../img/collar 6.jpeg",
+        "cantidad": 1
+    },
+    {
+        "id": 7,
+        "nombre": "Collar de cuarzo cristal",
+        "precio": 1000,
+        "img": "../img/collar 7.jpeg",
+        "cantidad": 1
+    },
+    {
+        "id": 8,
+        "nombre": "Collar de citrino",
+        "precio": 1000,
+        "img": "../img/collar 8.jpeg",
+        "cantidad": 1
+    },
+    {
+        "id": 9,
+        "nombre": "Collar de cuarzo rosa",
+        "precio": 1000,
+        "img": "../img/collar 9.jpeg",
+        "cantidad": 1
+    },
+    {
+        "id": 10,
+        "nombre": "Collar de piedra de luna",
+        "precio": 1000,
+        "img": "../img/collar 10.jpeg",
+        "cantidad": 1
+    },
+    {
+        "id": 11,
+        "nombre": "Collar de amatista puro",
+        "precio": 1000,
+        "img": "../img/collar 11.jpeg",
+        "cantidad": 1
+    },
+    {
+        "id": 12,
+        "nombre": "Pulsera de cuarzo rosa",
+        "precio": 1000,
+        "img": "../img/pulsera 1.jpeg",
+        "cantidad": 1
+    },
+    {
+        "id": 13,
+        "nombre": "Pulsera de ojo turco",
+        "precio": 1000,
+        "img": "../img/pulsera 2.jpeg",
+        "cantidad": 1
+    },
+    {
+        "id": 14,
+        "nombre": "Pulsera de onix",
+        "precio": 1000,
+        "img": "../img/pulsera 3.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 16,
+        "nombre": "Pulsera de agata rosa",
+        "precio": 1000,
+        "img": "../img/pulsera 4.jpg",
+        "cantidad": 1
+    }
+]

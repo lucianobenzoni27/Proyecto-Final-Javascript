@@ -1,0 +1,41 @@
+@mixin img_wpp_mix { 
+    width: 70px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+@mixin contacto_contenido_mix { 
+    display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.contacto_titulo {
+	color: $color_6;
+	text-align: center;
+}
+.contacto_contenido {
+    @include contacto_contenido_mix;
+	h3 {
+		color: $color_7;
+	}
+}
+.ubicacion {
+	margin-bottom: 20px;
+	text-align: center;
+}
+.redes {
+	a {
+		text-decoration: none;
+		margin-left: 40px;
+		&:hover {
+			color: $color_3;
+		}
+	}
+}
+.botonWhatsApp {
+	img {
+        @include img_wpp_mix;
+	}
+}

@@ -1,0 +1,35 @@
+@media screen and (max-width:991px) {
+	.pie_pagina {
+		.grupo_uno {
+			width: 90%;
+			grid-template-columns: repeat(1, 1fr);
+			grid-gap: 30px;
+			padding: 35px 0px;
+		}
+	}
+}
+@media screen and (max-width:600px) {
+	.imgCarousel {
+		width: 300px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.contacto_titulo {
+	  text-align: center;
+	}
+  
+	.contacto_contenido {
+	  flex-direction: column;
+	}
+  
+	.redes a {
+	  display: inline;
+	}
+  
+	.botonWhatsApp img {
+	  width: 50px;
+	}
+	.ubicacion { 
+		text-align: left;
+	}
+  }

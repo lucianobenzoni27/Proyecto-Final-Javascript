@@ -1,0 +1,29 @@
+@mixin header_mix {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 1;
+}
+
+header {
+	@include header_mix;
+}
+main {
+	margin-top: 250px;
+}
+.logo {
+	width: 150px;
+}
+.dropdown-item {
+	&:hover {
+		text-decoration: underline;
+		color: $color_1;
+	}
+}
+.nav-link {
+	&:hover {
+		text-decoration: underline;
+		color: $color_1;
+	}
+}
+

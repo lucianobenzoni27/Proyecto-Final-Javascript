@@ -1,0 +1,36 @@
+@mixin collares_mix { 
+    text-align: center;
+	color: $color_6;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+@mixin pulseras_mix { 
+    text-align: center;
+	color: $color_6;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.collares_titulo {
+    @include collares_mix;
+}
+.collares {
+	img {
+		height: 400px;
+	}
+}
+.row {
+	margin-bottom: 40px;
+}
+.pulseras_titulo {
+    @include pulseras_mix;
+}
+.pulseras {
+	img {
+		height: 400px;
+	}
+}
+
+
+

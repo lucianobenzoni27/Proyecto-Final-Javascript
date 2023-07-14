@@ -1,0 +1,21 @@
+@mixin pregunta_mix { 
+    text-align: center;
+	margin-right: 32px;
+	color: $color_6;
+}
+
+@mixin subtitulo_pregunta_mix { 
+    text-decoration: underline;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: $color_7;
+
+}
+
+
+.preguntas_titulo {
+    @include pregunta_mix;
+}
+.pregunta_subtitulo {
+    @include subtitulo_pregunta_mix;
+}    

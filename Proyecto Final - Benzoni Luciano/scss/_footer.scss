@@ -1,0 +1,67 @@
+@mixin grupo_uno_mix { 
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+@mixin figure_mix { 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin redes_footer_mix { 
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie_pagina {
+	width: 100%;
+	background-color: $background-color_1;
+	.grupo_uno {
+        @include grupo_uno_mix;
+		.box {
+			figure {
+                @include figure_mix;
+				img {
+					width: 150px;
+				}
+			}
+			h2 {
+				margin-bottom: 25px;
+				font-size: 20px;
+			}
+			p {
+				color: $color_2;
+				margin-bottom: 10px;
+			}
+		}
+		.redes_sociales {
+			a {
+                @include redes_footer_mix;
+				&:hover {
+					color: $color_3;
+				}
+			}
+		}
+	}
+	.grupo_dos {
+		padding: 15px 10px;
+		text-align: center;
+		color: $color_2;
+		small {
+			font-size: 15px;
+		}
+	}
+}
